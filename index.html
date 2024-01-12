@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Numerology Calculator</title>
+</head>
+<body>
+
+  <div id="app">
+    <h1>NumeraInsights</h1>
+    <label for="name"><h3>Enter your name:</h3></label>
+    <input type="text" id="name" placeholder="ex.,Chaithanya Kotagiri">
+ 
+
+    <label for="dob"><h3>Enter your date of birth (DD/MM/YYYY):</h3></label>
+    <input type="text" id="dob" placeholder="01/01/2000"><br>
+    
+
+    <button onclick="calculateNumerology()" class = "button"><b>Calculate</b></button>
+    <button onclick="resetForm()" class="button"><b>Reset</b></button>
+    <div id="results"></div>
+  </div>
+
+  <script src="numerology.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
+
