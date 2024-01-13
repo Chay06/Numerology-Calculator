@@ -2,6 +2,7 @@
 
 **Core Numerology Calculations:** The app includes fundamental numerology calculations, such as Life Path Number, Expression Number, and Soul Urge Number, offering users a comprehensive analysis of their numerological profile.
 
+
 ## Technologies Used
 
 - **HTML:** The structure of the app is built using HTML, providing a solid foundation for the user interface.
